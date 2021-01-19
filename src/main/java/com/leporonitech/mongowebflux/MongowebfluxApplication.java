@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 
-@SpringBootApplication @EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
+@SpringBootApplication
 public class MongowebfluxApplication {
 
 	public static void main(String[] args) {
